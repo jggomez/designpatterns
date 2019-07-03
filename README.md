@@ -6,5 +6,6 @@
     Decorator
     Strategy
     Factory Method
+    Singleton
 
 ### @jggomezt
