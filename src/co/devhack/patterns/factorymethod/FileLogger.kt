@@ -1,4 +1,4 @@
-package co.devhack.patterns.decorator
+package co.devhack.patterns.factorymethod
 
 class FileLogger : Logger {
     override fun log(message: String) =

@@ -1,6 +1,7 @@
 package co.devhack.patterns.strategy
 
 fun main(args: Array<String>) {
+
     val encryptLogger = EncryptLogger()
 
     encryptLogger.setEncryptionStrategy(EncryptMethod1())

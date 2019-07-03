@@ -4,9 +4,8 @@ class EncryptLogger(
         private val logger: Logger
 ) : LoggerDecorator(logger) {
 
-    override fun log(message: String) {
-        logger.log(encrypt(message))
-    }
+    override fun log(message: String) =
+            logger.log(encrypt(message))
 
     private fun encrypt(message: String) =
             "${message.substring(message.length - 1)} " +

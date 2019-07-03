@@ -38,15 +38,15 @@ class NotificationDialog(
             return this
         }
 
-        fun build(): NotificationDialog {
-            return NotificationDialog(
-                    title = this.title,
-                    description = this.description,
-                    iconUri = this.iconUri,
-                    buttonAccept = this.buttonAccept,
-                    buttonCancel = this.buttonCancel
-            )
-        }
+        fun build(): NotificationDialog =
+                NotificationDialog(
+                        title = this.title,
+                        description = this.description,
+                        iconUri = this.iconUri,
+                        buttonAccept = this.buttonAccept,
+                        buttonCancel = this.buttonCancel
+                )
+
 
     }
 }

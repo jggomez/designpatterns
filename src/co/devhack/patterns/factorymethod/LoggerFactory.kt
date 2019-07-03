@@ -1,4 +1,4 @@
-package co.devhack.patterns.decorator
+package co.devhack.patterns.factorymethod
 
 class LoggerFactory {
 
