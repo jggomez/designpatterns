@@ -5,5 +5,6 @@
     Builder
     Decorator
     Strategy
+    Factory Method
 
 ### @jggomezt
