@@ -13,7 +13,6 @@ fun main(args: Array<String>) {
     observable.subscribe(observer2)
     observable.subscribe(observer3)
 
-    // Thread.sleep(2000)
     streamData.forEachIndexed { index, i ->
         Thread.sleep(2000)
         println("************ Nueva data: $i ***********")

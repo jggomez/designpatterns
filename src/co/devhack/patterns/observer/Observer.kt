@@ -7,7 +7,7 @@ class Observer<T> {
 
     fun notify(valor: T) { observers.forEach { it(valor) } }
 
-    // Adiciona function a el arreglo
+    // Adiciona función a el arreglo
     fun subscribe(subFunc: (data: T) -> Unit) {
         observers.add(subFunc)
     }
