@@ -3,7 +3,7 @@ package co.devhack.patterns.observer
 class Observer<T> {
 
     // Apilador
-    private val observers: MutableList<(data: T) -> Unit> = arrayListOf()
+    private val observers = arrayListOf<(data: T) -> Unit>()
 
     fun notify(valor: T) { observers.forEach { it(valor) } }
 
