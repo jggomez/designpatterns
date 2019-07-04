@@ -3,7 +3,7 @@ package co.devhack.patterns.observer
 fun main(args: Array<String>) {
 
     val streamData = arrayListOf(1, 2, 3, 4, 5)
-    val observable = Observer<Int>()
+    val observable = Observable<Int>()
 
     val observer1 = { data: Int -> println("Observer 1: $data") }
     val observer2 = { data: Int -> println("Observer 2: ${data * 2}") }

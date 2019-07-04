@@ -1,11 +1,13 @@
 package co.devhack.patterns.observer
 
-class Observer<T> {
+class Observable<T> {
 
     // Apilador
     private val observers = arrayListOf<(data: T) -> Unit>()
 
-    fun notify(valor: T) { observers.forEach { it(valor) } }
+    fun notify(valor: T) {
+        observers.forEach { it(valor) }
+    }
 
     // Adiciona función a el arreglo
     fun subscribe(subFunc: (data: T) -> Unit) {
