@@ -7,6 +7,7 @@
     Strategy
     Factory Method
     Singleton
+    Observer
     
 ### Stack and Tools Used
     Kotlin
