@@ -24,7 +24,7 @@ class NotificationDialog(
         }
 
         fun addIconUri(iconUri: String): Builder {
-            this.iconUri = title
+            this.iconUri = iconUri
             return this
         }
 

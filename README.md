@@ -8,6 +8,8 @@
     Factory Method
     Singleton
     Observer
+    Facade
+    State
     
 ### Stack and Tools Used
     Kotlin
