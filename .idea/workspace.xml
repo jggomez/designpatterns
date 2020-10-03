@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a2045d-baba-4dd6-bf73-6dda95e51f67" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/facade/ClientFacade.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/facade/FacadeClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/state/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/state/StateMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/ClientChain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/Middleware.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/RoleCheckMiddleware.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/ThrottlingMiddleware.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/UserExistsMiddleware.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/ConsoleLogger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/ConsoleLogger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/FileLogger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/FileLogger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/Logger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/Logger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/observer/ObserverClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/observer/ObserverClient.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -40,7 +44,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="juan.gomez01@gmail.com" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="blogeekplatzi-4836b" />
+    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="blogeekplatzi" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="359502061382" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562208134666" />
@@ -50,13 +59,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Devhack\Codigo\DesignPatterns\src\co\devhack\patterns\builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StateMainKt">
+  <component name="RunManager" selected="Kotlin.ClientChainKt">
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -78,14 +88,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientFacadeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientChainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.facade.ClientFacadeKt" />
+      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.chainofresponsability.ClientChainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,16 +157,16 @@
       <item itemvalue="Kotlin.co.devhack.patterns.observer.ObserverClientKt" />
       <item itemvalue="Kotlin.co.devhack.patterns.decorator.DecoratorClientKt" />
       <item itemvalue="Kotlin.co.devhack.patterns.strategy.LoogerClientKt" />
-      <item itemvalue="Kotlin.ClientFacadeKt" />
       <item itemvalue="Kotlin.StateMainKt" />
+      <item itemvalue="Kotlin.ClientChainKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.StateMainKt" />
-        <item itemvalue="Kotlin.ClientFacadeKt" />
+        <item itemvalue="Kotlin.ClientChainKt" />
         <item itemvalue="Kotlin.co.devhack.patterns.observer.ObserverClientKt" />
         <item itemvalue="Kotlin.co.devhack.patterns.strategy.LoogerClientKt" />
         <item itemvalue="Kotlin.co.devhack.patterns.decorator.DecoratorClientKt" />
+        <item itemvalue="Kotlin.StateMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +195,13 @@
       <workItem from="1562091417069" duration="14979000" />
       <workItem from="1582324298595" duration="555000" />
       <workItem from="1582327028011" duration="3940000" />
-      <workItem from="1593029441737" duration="3274000" />
+      <workItem from="1593029441737" duration="4032000" />
+      <workItem from="1593131758839" duration="2959000" />
+      <workItem from="1599012378901" duration="2776000" />
+      <workItem from="1599532048283" duration="56000" />
+      <workItem from="1599532139042" duration="477000" />
+      <workItem from="1599532951861" duration="1263000" />
+      <workItem from="1601678317318" duration="3148000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern implemented">
       <created>1562206424049</created>
@@ -221,30 +237,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Observer pattern implemented" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1593036924354">
+    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1601682076720">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593036924354" />
-    <state width="1878" height="567" key="GridCell.Tab.0.bottom" timestamp="1593038130557">
+    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682076720" />
+    <state width="1878" height="567" key="GridCell.Tab.0.bottom" timestamp="1601682818305">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593038130557" />
-    <state width="1878" height="567" key="GridCell.Tab.0.center" timestamp="1593038130554">
+    <state width="1878" height="567" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682818305" />
+    <state width="1878" height="567" key="GridCell.Tab.0.center" timestamp="1601682818302">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.center/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593038130554" />
-    <state width="1878" height="567" key="GridCell.Tab.0.left" timestamp="1593038130552">
+    <state width="1878" height="567" key="GridCell.Tab.0.center/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682818302" />
+    <state width="1878" height="567" key="GridCell.Tab.0.left" timestamp="1601682818300">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.left/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593038130552" />
-    <state width="1878" height="567" key="GridCell.Tab.0.right" timestamp="1593038130556">
+    <state width="1878" height="567" key="GridCell.Tab.0.left/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682818300" />
+    <state width="1878" height="567" key="GridCell.Tab.0.right" timestamp="1601682818304">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.right/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593038130556" />
-    <state x="-1295" y="302" key="search.everywhere.popup" timestamp="1593037874269">
+    <state width="1878" height="567" key="GridCell.Tab.0.right/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682818304" />
+    <state x="-1451" y="240" key="SettingsEditor" timestamp="1599532906477">
       <screen x="-1920" y="61" width="1920" height="1080" />
     </state>
-    <state x="-1295" y="302" key="search.everywhere.popup/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1593037874269" />
+    <state x="-1451" y="240" key="SettingsEditor/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1599532906477" />
+    <state x="-1267" y="433" key="com.intellij.ide.util.TipDialog" timestamp="1599533061736">
+      <screen x="-1920" y="61" width="1920" height="1080" />
+    </state>
+    <state x="-1267" y="433" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1599533061736" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1601681207259">
+      <screen x="-1920" y="61" width="1920" height="1080" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601681207259" />
+    <state x="-1531" y="215" key="new project wizard" timestamp="1599534617274">
+      <screen x="-1920" y="61" width="1920" height="1080" />
+    </state>
+    <state x="-1531" y="215" key="new project wizard/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1599534617274" />
   </component>
   <component name="masterDetails">
     <states>

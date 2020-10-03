@@ -23,6 +23,5 @@ fun main(args: Array<String>) {
             println("<<<<< Cancelando suscripción del observador 2 >>>>>")
             observable.unsubscribe(observer2)
         }
-
     }
 }

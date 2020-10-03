@@ -3,13 +3,15 @@
 ### Patterns developed.
 
     Builder
+    Chain of Responsability
     Decorator
+    Facade
     Strategy
     Factory Method
-    Singleton
     Observer
-    Facade
+    Singleton
     State
+    Strategy
     
 ### Stack and Tools Used
     Kotlin
