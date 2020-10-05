@@ -1,4 +1,4 @@
-package co.devhack.patterns.chainofresponsability
+package co.devhack.patterns.chainofresponsibility
 
 fun main(args: Array<String>) {
     val middleware = ThrottlingMiddleware(5).apply {

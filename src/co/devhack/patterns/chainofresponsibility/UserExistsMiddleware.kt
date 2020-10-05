@@ -1,4 +1,4 @@
-package co.devhack.patterns.chainofresponsability
+package co.devhack.patterns.chainofresponsibility
 
 class UserExistsMiddleware : Middleware() {
     override fun check(data: Data): Boolean {

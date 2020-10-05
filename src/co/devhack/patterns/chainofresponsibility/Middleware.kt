@@ -1,4 +1,4 @@
-package co.devhack.patterns.chainofresponsability
+package co.devhack.patterns.chainofresponsibility
 
 abstract class Middleware {
 

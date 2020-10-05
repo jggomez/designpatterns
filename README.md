@@ -3,7 +3,7 @@
 ### Patterns developed.
 
     Builder
-    Chain of Responsability
+    Chain of Responsibility
     Decorator
     Facade
     Strategy
