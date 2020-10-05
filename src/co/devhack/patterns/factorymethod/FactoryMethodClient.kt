@@ -7,5 +7,5 @@ fun main(args: Array<String>) {
     val factory = LoggerFactory()
     val logger = factory.getLogger()
 
-    logger.log("Workshop de Aquitectura de Software")
+    logger.log("Workshop de Arquitectura de Software")
 }

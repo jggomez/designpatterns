@@ -12,5 +12,4 @@ class LoggerFactory {
                 true -> FileLogger()
                 false -> ConsoleLogger()
             }
-
 }

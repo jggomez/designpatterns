@@ -10,7 +10,6 @@ class EncryptLogger {
     private fun encrypt(message: String) =
             encryptionStrategy.encrypt(message)
 
-
     fun setEncryptionStrategy(encryptionStrategy: EncryptionStrategy) {
         this.encryptionStrategy = encryptionStrategy
     }

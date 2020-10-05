@@ -7,5 +7,4 @@ fun main(args: Array<String>) {
             .build()
 
     println(notification.show())
-
 }

@@ -1,13 +1,13 @@
 package co.devhack.patterns.chainofresponsability
 
 fun main(args: Array<String>) {
-    val middleware = ThrottlingMiddleware(15).apply {
+    val middleware = ThrottlingMiddleware(5).apply {
         linkWith(UserExistsMiddleware())
                 .linkWith(RoleCheckMiddleware())
     }
 
     middleware.check(Data(
-            "juan@devhack.co",
+            "admin@devhack.co",
             "123456789"
     ))
 }
