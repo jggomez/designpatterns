@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a2045d-baba-4dd6-bf73-6dda95e51f67" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/CalculateInvoiceGoldClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/CalculateInvoiceSilverClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/Entities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/InvoiceProcessTemplate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/InvoiceRepositoryImp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/TemplateMethodClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/devhack/patterns/templatemethod/UserRepositoryImp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/ClientChain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/chainofresponsability/ClientChain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/factorymethod/FactoryMethodClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/factorymethod/FactoryMethodClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/builder/NotificationDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/LoggerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/decorator/LoggerFactory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/factorymethod/LoggerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/factorymethod/LoggerFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/singleton/SingletonClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/singleton/SingletonClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/state/StateMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/state/StateMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/devhack/patterns/strategy/EncryptLogger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/devhack/patterns/strategy/EncryptLogger.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +42,6 @@
   <component name="ProjectId" id="1Y8VciJa0zqakf2iH33LZ6UyRNE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -50,6 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562208134666" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210129_0005" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +68,7 @@
       <recent name="F:\Devhack\Codigo\DesignPatterns\src\co\devhack\patterns\builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClientChainKt">
+  <component name="RunManager" selected="Application.co.devhack.patterns.observer.ObserverClientKt">
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -85,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientChainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.chainofresponsibility.ClientChainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FactoryMethodClientKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="VM_PARAMETERS" />
@@ -111,14 +103,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="co.devhack.patterns.decorator.DecoratorClientKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NotificationClientKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.decorator.DecoratorClientKt" />
+      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.builder.NotificationClientKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateMethodClientKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="co.devhack.patterns.templatemethod.TemplateMethodClientKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,19 +156,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.co.devhack.patterns.observer.ObserverClientKt" />
-      <item itemvalue="Kotlin.co.devhack.patterns.decorator.DecoratorClientKt" />
-      <item itemvalue="Kotlin.co.devhack.patterns.strategy.LoogerClientKt" />
-      <item itemvalue="Kotlin.ClientChainKt" />
-      <item itemvalue="Kotlin.FactoryMethodClientKt" />
+      <item itemvalue="Application.co.devhack.patterns.observer.ObserverClientKt" />
+      <item itemvalue="Application.co.devhack.patterns.strategy.LoogerClientKt" />
+      <item itemvalue="Application.TemplateMethodClientKt" />
+      <item itemvalue="Application.NotificationClientKt" />
+      <item itemvalue="Application.FactoryMethodClientKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ClientChainKt" />
-        <item itemvalue="Kotlin.co.devhack.patterns.observer.ObserverClientKt" />
-        <item itemvalue="Kotlin.co.devhack.patterns.strategy.LoogerClientKt" />
-        <item itemvalue="Kotlin.FactoryMethodClientKt" />
-        <item itemvalue="Kotlin.co.devhack.patterns.decorator.DecoratorClientKt" />
+        <item itemvalue="Application.co.devhack.patterns.observer.ObserverClientKt" />
+        <item itemvalue="Application.TemplateMethodClientKt" />
+        <item itemvalue="Application.FactoryMethodClientKt" />
+        <item itemvalue="Application.NotificationClientKt" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +183,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -200,6 +205,8 @@
       <workItem from="1599532951861" duration="1263000" />
       <workItem from="1601678317318" duration="10961000" />
       <workItem from="1601916492133" duration="24000" />
+      <workItem from="1601922315660" duration="67000" />
+      <workItem from="1611958026715" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern implemented">
       <created>1562206424049</created>
@@ -212,7 +219,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
@@ -229,52 +236,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Observer pattern implemented" />
     <option name="LAST_COMMIT_MESSAGE" value="Observer pattern implemented" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1601682076720">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state x="-1169" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601682076720" />
-    <state x="-1222" y="355" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601688597925">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state x="-1222" y="355" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601688597925" />
-    <state width="1878" height="567" key="GridCell.Tab.0.bottom" timestamp="1601758662174">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601758662174" />
-    <state width="1878" height="567" key="GridCell.Tab.0.center" timestamp="1601758662171">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.center/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601758662171" />
-    <state width="1878" height="567" key="GridCell.Tab.0.left" timestamp="1601758662166">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.left/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601758662166" />
-    <state width="1878" height="567" key="GridCell.Tab.0.right" timestamp="1601758662172">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="567" key="GridCell.Tab.0.right/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601758662172" />
-    <state x="-1451" y="240" key="SettingsEditor" timestamp="1599532906477">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state x="-1451" y="240" key="SettingsEditor/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1599532906477" />
-    <state x="-1267" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1601916502311">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state x="-1267" y="448" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601916502311" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1601681207259">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1601681207259" />
-    <state x="-1531" y="215" key="new project wizard" timestamp="1599534617274">
-      <screen x="-1920" y="61" width="1920" height="1080" />
-    </state>
-    <state x="-1531" y="215" key="new project wizard/0.0.1440.900/-1920.61.1920.1080@-1920.61.1920.1080" timestamp="1599534617274" />
   </component>
   <component name="masterDetails">
     <states>

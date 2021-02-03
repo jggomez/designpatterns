@@ -46,7 +46,5 @@ class NotificationDialog(
                         buttonAccept = this.buttonAccept,
                         buttonCancel = this.buttonCancel
                 )
-
-
     }
 }

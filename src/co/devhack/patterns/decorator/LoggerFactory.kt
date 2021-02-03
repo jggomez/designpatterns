@@ -4,7 +4,7 @@ class LoggerFactory {
 
     private fun isFileLoggingEnabled(): Boolean {
         // You can query a data base o config file o property
-        return false
+        return true
     }
 
     fun getLogger() =
